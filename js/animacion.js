@@ -19,28 +19,36 @@ $(function(){
 			paso_siguiente = 1;
 			$('#paso_anterior').html('Volver al paso 3');
 			$('#paso_siguiente').html('ir al paso 1');
+			$('.container_pasos_img').slideToggle('slow');
 			$('#img_pasos').attr('src', 'img/paso4.png');
+			$('.container_pasos_img').slideToggle('slow');
 		}
 		else if(paso == 3){
 			paso_anterior = 2;
 			paso_siguiente = 4;
 			$('#paso_anterior').html('Volver al paso 2');
 			$('#paso_siguiente').html('ir al paso 4');
+			$('.container_pasos_img').slideToggle('slow');
 			$('#img_pasos').attr('src', 'img/paso3.png');
+			$('.container_pasos_img').slideToggle('slow');
 		}
 		else if(paso == 2){
 			paso_anterior = 1;
 			paso_siguiente = 3;
 			$('#paso_anterior').html('Volver al paso 1');
 			$('#paso_siguiente').html('ir al paso 3');
+			$('.container_pasos_img').slideToggle('slow');
 			$('#img_pasos').attr('src', 'img/paso2.png');
+			$('.container_pasos_img').slideToggle('slow');
 		}
 		else if(paso == 1){
 			paso_anterior = 4;
 			paso_siguiente = 2;
 			$('#paso_anterior').html('Volver al paso 4');
 			$('#paso_siguiente').html('ir al paso 2');
+			$('.container_pasos_img').slideToggle('slow');
 			$('#img_pasos').attr('src', 'img/paso1.png');
+			$('.container_pasos_img').slideToggle('slow');
 		}
 	}
 
