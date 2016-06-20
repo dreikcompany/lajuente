@@ -1,0 +1,25 @@
+.fila_pasos{
+	background: url("../img/container_pasos.jpg");
+	background-size: 100% 100%;
+	padding-bottom: 20px;
+	opacity: 0.8;
+	z-index: 2;
+}
+
+.container_pasos_img{
+	background: #767676;
+	border-radius: 0px 0px 8px 8px; 
+	box-shadow: 3px 3px 1px rgba(50, 50, 50, 0.75);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.h_titulo{
+	text-shadow: 0px 0px 7px rgba(0,0,0, 0.9);
+	color: #FFFFFF;
+	text-align: center;
+}
